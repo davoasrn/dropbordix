@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-Jul-2014, 00:11:40
+    Author     : Asryan
+*/
+#mainmenu ul { list-style: none; margin: 0; padding: 0; position: relative; height: 30px; }
+ 
+#mainmenu ul li { display: block; height: 28px; float: left; overflow: visible; }
+#mainmenu ul li:hover > ul { display: block; }
+ 
+#mainmenu ul li a { float: left; display: block; }
+ 
+#mainmenu ul li ul { display: none; position: absolute; top: 85%;
+                    background: #000; color: #fff; height: auto;
+}
+ 
+#mainmenu ul li ul li a { color: #ccc; padding: 4px 14px; display: block; }
+ 
+#mainmenu ul li ul li.active a,
+#mainmenu ul li ul li a:hover { color: #fff; }
+
